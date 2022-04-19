@@ -1,0 +1,7 @@
+-- AlterTable
+ALTER TABLE `category` MODIFY `name` VARCHAR(191) NULL DEFAULT '',
+    MODIFY `slug` VARCHAR(191) NULL DEFAULT '',
+    MODIFY `url` VARCHAR(191) NULL DEFAULT '',
+    MODIFY `slug_url` VARCHAR(191) NULL DEFAULT '',
+    MODIFY `updated_at` VARCHAR(191) NULL DEFAULT '',
+    MODIFY `parent` INTEGER NULL;
